@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Empresa P&P</title>
+        <link rel="stylesheet" href="./diseño.css">
+    </head>
+    <body>
+        <header>
+            <img src="linea.png">;
+            <p>Hatziry Chacón | 0909-21-14813</p>
+            <div>
+                <h1>Serivicio de transporte de paquetería</h1>
+            </div>
+        </header>
+        <div id="menu">
+            <form>
+                <h3>SELECCIONE EL TIPO DE MERCADERÍA QUE DESEA TRANSPORTAR</h3>
+
+                <select id="tpq">
+                    <option selected disabled>Seleccione...</option>
+                    <option value="Documentos">Documentos</option>
+                    <option value="Paquetería">Paquetería</option>
+                    <option value="Mobiliario">Mobiliario</option>
+                    <option value="Repuestos">Repuestos</option>
+                    <option value="Artículos Electrónicos">Artículos Electrónicos</option>
+                </select>
+                <br><br>
+                <input type="button" value="ENVIAR" onclick="paquetes(this.form)">
+            </form>
+        </div>
+    </body>
+    <script type="text/javascript" src="./transporte.js"></script>
+</html>

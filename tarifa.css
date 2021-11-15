@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(fondo.jpg);
+    background-size: cover;
+    }  
+    header img{
+    position: absolute;
+    margin: 0 auto;
+    width: 280px;
+    top: 25px;
+    left: 20px;
+    }
+    header p{
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    color: #ffffffc5;
+    font-size: 10;
+    }
+    h1{
+        width: 1000px;
+        height: 300px;
+        margin: 0 auto;
+        position: relative;
+        font-size: 36px;
+        top: 200px;
+        left: 140px;
+        color: antiquewhite;
+    }
+    select#pvl{
+        width: 200px;
+        position: absolute;
+        color: black;
+        padding: 4px;
+        font-size: 16px;
+        cursor: pointer;
+        margin: 5px 10;
+        top: 320px;
+        left: 600px;
+    }
+    select#dep{
+        width: 200px;
+        position: absolute;
+        color: black;
+        padding: 4px;
+        font-size: 16px;
+        cursor: pointer;
+        margin: 5px 10;
+        top: 370px;
+        left: 600px;
+    }
+    input{
+        width: 110px;
+        background: rgba(190, 122, 253, 0.555);
+        position: absolute;
+        border: 2px solid hsl(286, 82%, 35%);
+        color: antiquewhite;
+        padding: 5px;
+        font-size: 15px;
+        cursor: pointer;
+        margin: 12px 0;
+        top: 420px;
+        left: 687px;
+    }
+        
