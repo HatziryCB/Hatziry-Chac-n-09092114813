@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="uft-8">
+        <title>Sentencia Switch</title>
+        <style>
+            body{
+              margin: 50px;  
+              padding: 50px 0;
+              width: 500px;
+              font-family: sans-serif;
+              background: url(cactus.jpg)no-repeat;
+              background-size: cover;
+              font-size: 45px;
+              color: antiquewhite;
+              top: 50%;
+              left: 50%;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <script>
+        resultado=prompt("En una escala de 1 al 5, siendo 1 malo y 5 excelente, ¿Que tan preparado se sentía para el examen final de Algoritmos?")  
+        switch (resultado) {
+            case "1":
+                document.write("Uppss.. te deseo la mayor de la suertes :/ ")
+                break;
+            case "2":
+                document.write("Necesitas estudiar mucho más, exitos en tu examen final")
+                break;
+            case "3":
+                document.write("Estás en el medio de todo, en el limbo, espero te vaya muy bien en tu examen")
+                break;
+            case "4":
+                document.write("Ulalaa... Andas fino, sigue así!!")
+                break;
+            case "5":
+                document.write("Modo Facherito activado, sigue así futuro Ingeniero")
+                break;
+            default:
+                alert("Uppsss.. se ha producido un error, será mejor que lo intentes de nuevo")
+                break;
+        }
+        </script>
+    </body>
+</html>
